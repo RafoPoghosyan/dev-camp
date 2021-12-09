@@ -60,7 +60,7 @@ function Header() {
             <div className='header-container'>
                 <div className='logo-container' onClick={toIntro}>
                     <div className='logo-img'>
-                        <img src={logoImg}/>
+                        <img src={logoImg} alt="Logo image"/>
                     </div>
                     <span>
                         DevCamper
@@ -70,27 +70,27 @@ function Header() {
                     {location.pathname !== '/' ?
                         <div className='account-container'>
                             <div className='user-icon'>
-                                <img src={userTop} className='user-icon-top'/>
-                                <img src={userBottom} className='user-icon-bottom'/>
+                                <img src={userTop} className='user-icon-top' alt='User head'/>
+                                <img src={userBottom} className='user-icon-bottom' alt='User body'/>
                             </div>
                             <span>
                                 Account
                             </span>
-                            <img src={triangle} className='triangle-icon'/>
+                            <img src={triangle} className='triangle-icon' alt="Triangle"/>
                         </div>
                         :
                         <div className='login-register-content'>
                             <div className='login-register-container' onClick={toggleLogin}>
                                 <div className='login-icon'>
-                                    <img src={rightArrow} className='right-arrow'/>
-                                    <img src={loginIcon}/>
+                                    <img src={rightArrow} className='right-arrow' alt='Right arrow'/>
+                                    <img src={loginIcon} alt='Login icon'/>
                                 </div>
                                 <span>
                                     Login
                                 </span>
                             </div>
                             <div className='login-register-container' onClick={toggleRegister}>
-                                <img src={registerIcon} className='register-icon'/>
+                                <img src={registerIcon} className='register-icon' alt='Register icon'/>
                                 <span>
                                     Register
                                 </span>

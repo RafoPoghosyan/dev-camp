@@ -12,7 +12,7 @@ function Bootcamps(props) {
 
         <div className='bootcamp-container'>
             <div className='bootcamp-img'>
-                <img src={img}/>
+                <img src={img} alt='Boot camp image'/>
             </div>
             <div className='bootcamp-name-container'>
                 <div className='name-rating'>

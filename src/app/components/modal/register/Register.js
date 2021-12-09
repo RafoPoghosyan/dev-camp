@@ -11,7 +11,7 @@ function Register() {
             <div className='register-container'>
                 <div className='modal-icon-container'>
                     <div className='modal-register-icon'>
-                        <img src={registerIcon}/>
+                        <img src={registerIcon} alt="Register icon"/>
                     </div>
                     <span className='modal-name'>
                         Register

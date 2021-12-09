@@ -22,8 +22,8 @@ function Login(props) {
                 <div className='login-container'>
                     <div className='modal-icon-container'>
                         <div className='modal-login-icon'>
-                            <img src={rightArrow} className='right-arrow'/>
-                            <img src={loginIcon}/>
+                            <img src={rightArrow} className='right-arrow' alt="Right arrow"/>
+                            <img src={loginIcon} alt="Login icon"/>
                         </div>
                         <span className='modal-name'>
                             Login
