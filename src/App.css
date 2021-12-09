@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal-name {
+    color: rgba(33, 37, 41, 1);
+    font-family: RobotoRegular, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.modal-info-text {
+    margin: 12px 0 15px;
+    padding: 0;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 1);
 }
 
-.App-link {
-  color: #61dafb;
+.modal-icon-container {
+    display: flex;
+    grid-gap: 12px;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-filed {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    grid-gap: 8px;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(33, 37, 41, 1);
 }
+
+.input-filed > input {
+    padding: 7px 0 7px 15px;
+    border: 1px solid rgba(206, 212, 218, 1);
+    color: rgba(33, 37, 41, 0.56);
+    font-family: RobotoRegular, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+
+}
+
+.input-filed-container {
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    grid-gap: 16px;
+}
+
+.modal-btn {
+    padding: 7px 0;
+    text-align: center;
+    font-family: RobotoMedium, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    background-color: rgba(224, 84, 51, 1);
+    width: 100%;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url("app/assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url("app/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url("app/assets/fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url("app/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+
+@media screen and (max-width: 768px) {
+    .modal-name {
+        font-size: 30px;
+    }
+
+    .modal-info-text {
+        font-size: 14px;
+        margin: 7px 0 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .input-filed > input {
+        font-size: 13px;
+    }
+
+    .modal-icon-container {
+        grid-gap: 8px;
+    }
+
+}
+
+
+
+

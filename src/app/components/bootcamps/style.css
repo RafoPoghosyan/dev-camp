@@ -1,0 +1,143 @@
+.bootcamp-container {
+    max-width: 730px;
+    display: flex;
+    margin-bottom: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+
+}
+
+.bootcamp-img {
+    max-width: 245px;
+    margin-right: 19px;
+}
+
+.bootcamp-name-container {
+    padding: 19px 21px 0 0;
+    width: 100%;
+    max-width: 443px;
+
+}
+
+.name-rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-rating > span {
+    color: rgba(224, 84, 51, 1);
+    font-family: RobotoRegular, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.rating {
+    max-width: 33px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(40, 167, 69, 1);
+    font-family: RobotoBold, sans-serif;
+    font-size: 15px;
+    padding: 4px 3px;
+}
+
+.address-content {
+    color: rgba(255, 255, 255, 1);
+    font-family: RobotoBold, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px 3px;
+    background-color: rgba(52, 58, 64, 1);
+    width: max-content;
+    margin-top: 18px;
+}
+
+.careers-content {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(33, 37, 41, 1);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .careers-content {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .bootcamp-img {
+        max-width: 180px;
+    }
+
+    .bootcamp-name-container {
+        padding: 10px 10px 0 0;
+    }
+
+    .name-rating > span {
+        font-size: 17px;
+    }
+
+    .address-content {
+        margin-top: 5px;
+    }
+
+    .careers-content {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bootcamp-img {
+        max-width: 150px;
+        margin-right: 10px;
+    }
+
+    .name-rating > span {
+        font-size: 14px;
+    }
+
+    .address-content {
+        margin-top: 0;
+    }
+
+    .careers-content {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .rating {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .bootcamp-img {
+        max-width: 100px;
+    }
+
+    .name-rating > span {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .rating {
+        font-size: 10px;
+        padding: 2px 3px;
+    }
+
+    .address-content {
+        font-size: 8px;
+        line-height: 3px;
+    }
+
+    .careers-content {
+        font-size: 8px;
+        line-height: 9px;
+        margin-top: 5px;
+    }
+
+}

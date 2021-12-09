@@ -1,0 +1,150 @@
+header {
+    background-color: rgba(224, 84, 51, 1);
+}
+
+
+.header-container {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 40px;
+    justify-content: space-between;
+    padding: 13px 80px;
+    align-items: center;
+    font-family: RobotoRegular, sans-serif;
+
+}
+
+.logo-container {
+    display: flex;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    cursor: pointer;
+}
+
+.ReactModal__Content {
+    max-width: 540px;
+    width: 100%;
+}
+
+.logo-img {
+    max-width: 36px;
+    padding-right: 9px;
+}
+
+.login-icon {
+    max-width: 9px;
+    position: relative;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50%;
+}
+
+.register-icon {
+    max-width: 11.73px;
+}
+
+.login-register-panel {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-gap: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+
+}
+
+.login-register-content {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 16px;
+    align-items: center;
+}
+
+.login-register-container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.border-left {
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    height: 16px;
+}
+
+.user-icon {
+    max-width: 18px;
+
+}
+
+.user-icon-top {
+    max-width: 7.88px;
+    margin: 0 auto;
+
+}
+
+.user-icon-bottom {
+    max-width: 11.25px;
+    margin: 1px auto 0;
+}
+
+.account-container {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-gap: 6px;
+    align-items: center;
+}
+
+.triangle-icon {
+    max-width: 12px;
+}
+
+@media screen and (max-width: 425px) {
+    .header-container {
+        padding: 13px 20px;
+    }
+
+    .login-register-panel {
+        grid-template-rows: repeat(2, max-content);
+        grid-template-columns: none;
+        grid-gap: 5px
+    }
+
+    .ReactModal__Content {
+        max-width: 340px;
+    }
+
+    .ReactModal__Overlay {
+        inset: 79px 0 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .logo-container {
+        font-size: 14px;
+    }
+
+    .login-register-panel {
+        font-size: 12px;
+    }
+
+    .login-register-panel > div {
+        grid-gap: 5px;
+    }
+
+    .ReactModal__Content {
+        max-width: 270px;
+    }
+}

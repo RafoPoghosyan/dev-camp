@@ -1,0 +1,67 @@
+.login-main-container {
+    padding: 42px 40px 61px;
+}
+
+
+.login-container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.modal-login-icon {
+    max-width: 16.5px;
+    width: 100%;
+    filter: invert(1);
+    position: relative;
+}
+
+.forgot-reset-passwords {
+    margin-top: 16px;
+    font-family: RobotoRegular, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+.login-container > .modal-btn {
+    margin-top: 24px;
+}
+
+.forgot-reset-passwords > span:first-child {
+    color: rgba(33, 37, 41, 1);
+    font-size: 16px;
+}
+
+.forgot-reset-passwords > span:last-child {
+    color: rgba(224, 84, 51, 1);
+    font-size: 15px;
+}
+
+@media screen and (max-width: 425px) {
+    .login-main-container {
+        padding: 32px 20px 41px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .login-main-container {
+        padding: 20px 20px 30px;
+    }
+
+    .forgot-reset-passwords > span:first-child {
+        font-size: 14px;
+    }
+
+    .modal-info-text {
+        font-size: 12px;
+    }
+
+    .input-filed-container {
+        grid-gap: 10px;
+    }
+
+    .modal-login-icon {
+        max-width: 13.5px;
+    }
+}
