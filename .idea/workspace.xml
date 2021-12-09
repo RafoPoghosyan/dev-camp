@@ -12,12 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dda7f3f6-4d31-4a3a-b5ef-92cd686f6f18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/bootcamps/Bootcamps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/bootcamps/Bootcamps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/modal/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/modal/login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/modal/register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/modal/register/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <workItem from="1638856788960" duration="32019000" />
       <workItem from="1638943158756" duration="959000" />
       <workItem from="1638970037756" duration="4670000" />
-      <workItem from="1639030428254" duration="18566000" />
+      <workItem from="1639030428254" duration="19183000" />
     </task>
     <servers />
   </component>
