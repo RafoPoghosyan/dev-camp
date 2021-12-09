@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/devcamp/static/css/main.39c252e3.chunk.css",
-    "main.js": "/devcamp/static/js/main.b19a63ea.chunk.js",
-    "main.js.map": "/devcamp/static/js/main.b19a63ea.chunk.js.map",
-    "runtime-main.js": "/devcamp/static/js/runtime-main.1562cb23.js",
-    "runtime-main.js.map": "/devcamp/static/js/runtime-main.1562cb23.js.map",
-    "static/js/2.07322935.chunk.js": "/devcamp/static/js/2.07322935.chunk.js",
-    "static/js/2.07322935.chunk.js.map": "/devcamp/static/js/2.07322935.chunk.js.map",
-    "static/js/3.046f4e18.chunk.js": "/devcamp/static/js/3.046f4e18.chunk.js",
-    "static/js/3.046f4e18.chunk.js.map": "/devcamp/static/js/3.046f4e18.chunk.js.map",
-    "index.html": "/devcamp/index.html",
-    "static/css/main.39c252e3.chunk.css.map": "/devcamp/static/css/main.39c252e3.chunk.css.map",
-    "static/js/2.07322935.chunk.js.LICENSE.txt": "/devcamp/static/js/2.07322935.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/devcamp/static/media/Roboto-Regular.a8d6ac03.ttf",
-    "static/media/style.css": "/devcamp/static/media/homeImg.83046dfd.png",
-    "static/media/image_1 1.14dfdfee.png": "/devcamp/static/media/image_1 1.14dfdfee.png",
-    "static/media/loginIcon.1b9d3677.svg": "/devcamp/static/media/loginIcon.1b9d3677.svg",
-    "static/media/registerIcon.dd8f8eff.svg": "/devcamp/static/media/registerIcon.dd8f8eff.svg",
-    "static/media/right-arrow.987c0cd9.svg": "/devcamp/static/media/right-arrow.987c0cd9.svg"
+    "main.css": "/dev-camp/static/css/main.0bb06dd7.chunk.css",
+    "main.js": "/dev-camp/static/js/main.b19a63ea.chunk.js",
+    "main.js.map": "/dev-camp/static/js/main.b19a63ea.chunk.js.map",
+    "runtime-main.js": "/dev-camp/static/js/runtime-main.1fbc2af3.js",
+    "runtime-main.js.map": "/dev-camp/static/js/runtime-main.1fbc2af3.js.map",
+    "static/js/2.07322935.chunk.js": "/dev-camp/static/js/2.07322935.chunk.js",
+    "static/js/2.07322935.chunk.js.map": "/dev-camp/static/js/2.07322935.chunk.js.map",
+    "static/js/3.046f4e18.chunk.js": "/dev-camp/static/js/3.046f4e18.chunk.js",
+    "static/js/3.046f4e18.chunk.js.map": "/dev-camp/static/js/3.046f4e18.chunk.js.map",
+    "index.html": "/dev-camp/index.html",
+    "static/css/main.0bb06dd7.chunk.css.map": "/dev-camp/static/css/main.0bb06dd7.chunk.css.map",
+    "static/js/2.07322935.chunk.js.LICENSE.txt": "/dev-camp/static/js/2.07322935.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dev-camp/static/media/Roboto-Regular.a8d6ac03.ttf",
+    "static/media/style.css": "/dev-camp/static/media/homeImg.83046dfd.png",
+    "static/media/image_1 1.14dfdfee.png": "/dev-camp/static/media/image_1 1.14dfdfee.png",
+    "static/media/loginIcon.1b9d3677.svg": "/dev-camp/static/media/loginIcon.1b9d3677.svg",
+    "static/media/registerIcon.dd8f8eff.svg": "/dev-camp/static/media/registerIcon.dd8f8eff.svg",
+    "static/media/right-arrow.987c0cd9.svg": "/dev-camp/static/media/right-arrow.987c0cd9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1562cb23.js",
+    "static/js/runtime-main.1fbc2af3.js",
     "static/js/2.07322935.chunk.js",
-    "static/css/main.39c252e3.chunk.css",
+    "static/css/main.0bb06dd7.chunk.css",
     "static/js/main.b19a63ea.chunk.js"
   ]
 }
